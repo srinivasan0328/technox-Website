@@ -1,0 +1,1360 @@
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.navBarSection{
+    /* background-color: #7fffd4; */
+}
+
+/* step3: componentContainer */
+.navBarContainer{
+    background: linear-gradient(to left,#314D5E,#060120);
+    /* background-color: beige; */
+    width: 100%;
+    margin: auto;
+    padding: 0rem 1rem;
+}
+
+/* step4: row */
+.navBody{
+    /* background-color: #864c7d; */
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 1rem 0rem;
+}
+
+/* step5: column1 */
+.logoBlock{
+    /* background-color: #5f3c2d; */
+}
+
+/* step6: subColumn1 */
+.logoBox{
+    /* background-color: #8c9146; */
+}
+
+/* step7: contentContainer */
+.logoBox img{
+    /* background-color: #3f5280; */
+    height: 7rem;
+}
+
+/* step5: column2 */
+.navLinkBlock{
+    /* background-color: #bd8867; */
+}
+
+/* step6: subColumn1 */
+.navBox{
+    /* background-color: #c4d753; */
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/* step7: contentContainer */
+.navBox li{
+    /* background-color: #9c54a4; */
+    list-style: none;
+}
+
+.navBox li,a{
+    /* background-color: #a8b965; */
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--primaryColor);
+}
+
+/* step5: column3 */
+.navButtonBlock{
+    /* background-color: #374d3d; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* step6: subColumn1 */
+.navButtonBox{
+    /* background-color: #4e5a87; */
+    padding-right: 1rem;
+}
+
+/* step7: contentContainer */
+.navButtonBox button{
+    background-color: var(--secondaryColor);
+    padding: 0.7rem 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--primaryColor);
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.navButtonBox button:hover{
+    background-color: var(--darkColor);
+    cursor: pointer;
+}
+
+/* hero */
+
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.heroSection{
+    /* background-color: #347972; */
+}
+
+/* step3: componentContainer */
+
+.heroContainer{
+    /* background-color: #ff6347; */
+    width: 100%;
+}
+
+/* step4: row */
+
+.heroBody{
+    /* background-color: #5ac6c6; */
+    background: linear-gradient(to left,#5C989B,#060120);
+    padding: 0rem;
+}
+
+/* step5: column */
+
+.heroBlock{
+    /* background-color: #23344A; */
+    padding: 5rem 10rem;
+}
+
+/* step6: subColumn */
+
+.heroBox{
+    /* background-color: #52e3c6; */
+}
+
+/* step7: contentContainer */
+
+.heroBox h3{
+    /* background-color: #7fff00; */
+    font-size: 2.5rem;
+    font-family: var(--ffPrimary);
+    color: var(--primaryColor);
+    font-weight: 500;
+}
+
+.heroBox h1{
+    /* background-color: #a4e265; */
+    font-size: 7.2rem;
+    font-family: var(--ffPrimary);
+    color: var(--primaryColor);
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.heroBox span{
+    color: #f47e2e;
+}
+
+.heroIcon{
+    /* background-color: #ffff00; */
+}
+
+.heroIcon img{
+    /* background-color: yellow; */
+    height: 115px;
+    margin-bottom: 3rem;
+}
+
+.heroBtngrp{
+    /* background-color: #8a2be2; */
+}
+
+.heroBtngrp .button1{
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    font-family: inherit;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    padding: 0.7rem 1.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+.heroBtngrp .button2{
+    background-color: transparent;
+    color: var(--primaryColor);
+    font-family: inherit;
+    font-size: 1.6rem;
+    border: 1px solid var(--primaryColor);
+    padding: 0.7rem 1.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1.5rem;
+}
+
+.heroBtngrp .button1:hover{
+    background-color: var(--darkColor);
+}
+
+.heroBtngrp .button2:hover{
+    background-color: var(--primaryColor);
+    color: var(--lightColor);
+}
+
+/* about */
+
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.aboutSection{
+    /* background-color: #7fffd4; */
+}
+
+/* step3: componentContainer */
+.aboutContainer{
+    /* background-color: #a78c49; */
+}
+
+/* step4: row */
+.aboutBody{
+    /* background-color: #864c7d; */
+}
+
+/* step5: column1 */
+.aboutBlock{
+    /* background-color: #5f3c2d; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* step6: subColumn1 */
+.aboutBox{
+    /* background-color: #8c9146; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/* step7: contentContainer */
+.aboutP1 {
+    /* background-color: #3f5280; */
+    color: #a52a2a;
+    margin-bottom: 1.5rem;
+}
+
+.aboutBox h2{
+    /* background-color: #7c4242; */
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.aboutP2{
+    /* background-color: #9c709c; */
+    color: var(--lightColor);
+    margin-bottom: 2rem;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.aboutP3{
+    /* background-color: #74a7bb; */
+    color: var(--darkColor);
+    margin-bottom: 4rem;
+    font-style: italic;
+    line-height: 2;
+}
+
+.aboutBox button{
+    background-color: var(--darkColor);
+    color: var(--primaryColor);
+    padding: 1.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.aboutBox button:hover{
+    color: var(--secondaryColor);
+    border: 1px solid var(--secondaryColor);
+}
+
+/* step5: column2 */
+.aboutImgBlock{
+    /* background-color: #bd8867; */
+}
+
+/* step6: subColumn1 */
+.aboutImgBox{
+    /* background-color: #9a826d; */
+}
+
+/* step7: contentContainer */
+.aboutImgBox img{
+    /* background-color: #9c54a4; */
+    height: 40rem;
+}
+
+/* brand */
+
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.brandSection{
+    background-color: #ffffff;
+}
+
+/* step3: componentContainer */
+.brandContainer{
+    /* background-color: #a78c49; */
+}
+
+/* step4: row1 */
+.headingBody{
+    /* background-color: #864c7d; */
+}
+
+/* step5: column1 */
+.headingBlock{
+    /* background-color: #5f3c2d; */
+}
+
+/* step6: subColumn1 */
+.headingBox{
+    /* background-color: #8c9146; */
+}
+
+/* step7: contentContainer */
+.headingBox h2{
+    /* background-color: #3f5280; */
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom:3rem;
+}
+
+/* step4: row2 */
+.brandBody{
+    /* background-color: #97b035; */
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr); */
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* step5: column2 */
+.brandBlock{
+    /* background-color: #a28459; */
+}
+
+/* step6: subColumn1 */
+.brandBox{
+    /* background-color: #dcdc2c; */
+    border-radius: 15px;
+    box-shadow: -1px -7px 0px 0 #FFEDD3,
+    1px 7px 0 0 #FFEDD3;
+}
+
+/* step7: contentContainer */
+.brandBox img{
+    /* background-color: #9c54a4; */
+    height: 8rem;
+    padding: 1rem 2rem;
+}
+
+/* service */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.serviceSection{
+    background-color: #F4EDE3;
+}
+
+/* step3: componentContainer */
+.serviceContainer{
+    /* background-color: #ffe4c4; */
+}
+
+/* step4: row 1 */
+.headingBody{
+    /* background-color: #ffff00; */
+}
+
+/* step5: column 1 */
+.headingBlock{
+    /* background-color: #a52a2a; */
+}
+
+/* step6: subColumn 1*/
+.headingBox{
+    /* background-color: #0000ff; */
+}
+
+/* step7: contentContainer */
+.headingBox p{
+    /* background-color: #57577e; */
+    color: #A82A2A;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.headingBox h2{
+    /* background-color: #414190; */
+    font-size: 3.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.headingBox span{
+    color: var(--secondaryColor);
+}
+
+/* step4: row 2 */
+.serviceBody{
+    /* background-color:#ffd700; */
+}
+
+/* step5: column 1 */
+.serviceBlock{
+    /* background-color: #ee82ee; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+/* step6: subColumn 1*/
+.serviceCard{
+    background-color: #7E2156;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    border-radius: 5px;
+}
+
+/* cardHead */
+.serviceCardHead{
+    /* background-color: #d2b48c; */
+    
+}
+
+/* step7: contentContainer */
+.serviceCardHead img{
+    /* background-color: #846237; */
+    height: 4rem;
+}
+
+/* cardBody */
+.serviceCardBody{
+    /* background-color: #008080; */
+}
+
+/* step7: contentContainer */
+.serviceCardBody h4{
+    /* background-color: #57938f; */
+    line-height: 2;
+    /* color: var(--primaryColor); */
+}
+
+.serviceCardBody a{
+    /* background-color: #577930; */
+    color: var(--primaryColor);
+    text-decoration: none;
+}
+
+.serviceCardBody p{
+    /* background-color: #57938f; */
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color: var(--primaryColor);
+    font-weight: 300;
+}
+
+.serviceCardBody h5{
+    /* background-color: #57938f; */
+    color: var(--primaryColor);
+
+}
+
+/* techPartner */
+
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.techPartnerSection{
+    background-color: #ffffff;
+}
+
+/* step3: componentContainer */
+.techPartnerContainer{
+    /* background-color: #a78c49; */
+}
+
+/* step4: row1 */
+.headingBody{
+    /* background-color: #864c7d; */
+}
+
+/* step5: column1 */
+.headingBlock{
+    /* background-color: #5f3c2d; */
+}
+
+/* step6: subColumn1 */
+.headingBox{
+    /* background-color: #8c9146; */
+}
+
+/* step7: contentContainer */
+.headingBox h2{
+    /* background-color: #3f5280; */
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.headingBox p{
+    /* background-color: #75803f; */
+    margin-bottom: 4rem;
+    color: var(--lightColor);
+}
+/* step4: row2 */
+.techPartnerBody{
+    /* background-color: #97b035; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* step5: column2 */
+.techPartnerBlock{
+    /* background-color: #a28459; */
+}
+
+/* step6: subColumn1 */
+.techPartnerBox{
+    /* background-color: #dcdc2c; */
+    border-radius: 15px;
+    box-shadow: -1px -7px 0px 0 #FFEDD3,
+    1px 7px 0 0 #FFEDD3;
+}
+
+/* step7: contentContainer */
+.techPartnerBox img{
+    /* background-color: #9c54a4; */
+    height: 4rem;
+}
+
+/* whyPartner */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.whyPartnerSection{
+    background-color: #fef5ea;
+}
+
+/* step3: componentContainer */
+.whyPartnerContainer{
+    /* background-color: #a78c49; */
+    width: 100%;
+    margin: auto;
+}
+
+/* step4: row */
+.whyPartnerBody{
+    /* background-color: #864c7d; */
+    padding: 6rem 2rem;
+}
+
+/* step5: column1 */
+.whyPartnerImgBlock{
+    /* background-color: #5f3c2d; */
+    padding: 0rem 3rem;
+}
+
+/* step6: subColumn1 */
+.whyPartnerImgBox{
+    /* background-color: #8c9146; */
+}
+
+/* step7: contentContainer */
+.whyPartnerImgBox img {
+    /* background-color: #3f5280; */
+    height: 40rem;
+}
+
+/* step6: subColumn 1 */
+.bookNowBox{
+    /* background-color: #d2691e; */
+    width: 100%;
+    border: 1px solid var(--secondaryColor);
+    border-radius: 20px;
+    padding: 1rem 2.5rem;
+}
+
+/* step6: subColumn 2 */
+.bookNowBox h3{
+    /* background-color: #7c4242; */
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.bookNowBox button{
+    /* background-color: #9c709c; */
+    padding: 1rem 2rem;
+    border: none;
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    font-size: 1.6rem;
+    border-radius: 5px;
+}
+
+.bookNowBox button:hover{
+    color: var(--darkColor);
+}
+
+/* step5: column2 */
+.whyPartnerBlock{
+    /* background-color: #74a7bb; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* step6: subColumn1 */
+.whyPartnerBox{
+    /* background-color: #559146; */
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/* step7: contentContainer */
+.whyPartnerBox h3{
+    /* background-color: #9c54a4; */
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: var(--darkColor);
+    margin-bottom: 2rem;
+}
+
+.whyPartnerBox p{
+    /* background-color: #7641a7; */
+    color: var(--lightColor);
+    margin-bottom: 2rem;
+}
+
+.whyPartnerBox h4{
+    /* background-color: #7641a7; */
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bookingBody{
+    background: linear-gradient(to left,#314D5E,#060120);
+}
+
+.bookingBlock{
+    /* background-color: #5f9ea0; */
+}
+
+.bookingBox{
+    /* background-color: #768e82; */
+    padding: 4rem 0rem;
+}
+
+.bookingBox h2{
+    /* background-color: #deb887; */
+    font-size: 2.8rem;
+    color: var(--primaryColor);
+    margin-bottom: 1rem;
+    font-weight: 400;
+    
+}
+
+.bookingBox button{
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+}
+
+.bookingBox i{
+    padding: 0rem 0.3rem;
+}
+
+/* digitalPartner */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.digitalPartnerSection{
+    background-color: #fef5ea;
+}
+
+/* step3: componentContainer */
+.digitalPartnerContainer{
+    /* background-color: #a78c49; */
+    width: 100%;
+    margin: auto;
+}
+
+/* step4: row */
+.digitalPartnerBody{
+    /* background-color: #864c7d; */
+    padding: 2rem 5rem;
+}
+
+/* step5: column1 */
+.digitalPartnerBlock{
+    /* background-color: #5f3c2d; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* step6: subColumn1 */
+.digitalPartnerBox{
+    /* background-color: #8c9146; */
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/* step7: contentContainer */
+.digitalPartnerBox h3{
+    /* background-color: #9c54a4; */
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.digitalPartnerBox p{
+    /* background-color: #7641a7; */
+    color: var(--lightColor);
+    margin-bottom: 2rem;
+}
+
+.digitalPartnerBox h4{
+    /* background-color: #82b08c; */
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* step5: column2 */
+.digitalPartnerImgBlock{
+    /* background-color: #74a7bb; */
+}
+
+/* step6: subColumn1 */
+.digitalPartnerImgBox{
+    /* background-color: #559146; */
+}
+
+/* step7: contentContainer */
+.digitalPartnerImgBox img {
+    /* background-color: #3f5280; */
+    height: 40rem;
+    margin-bottom: 3rem;
+}
+
+/* step6: subColumn 2 */
+.bookNowBox{
+    /* background-color: #7c7c42; */
+    width: 80%;
+    border: 1px solid var(--secondaryColor);
+    border-radius: 20px;
+    padding: 1rem 2.5rem;
+}
+
+/* step7: contentContainer */
+.bookNowBox h3{
+    /* background-color: #7c4242; */
+    font-size: 2.4rem;
+    color: var(--darkColor);
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.bookNowBox button{
+    /* background-color: #9c709c; */
+    padding: 1rem 2rem;
+    border: none;
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    font-size: 1.6rem;
+    border-radius: 5px;
+}
+
+.bookNowBox button:hover{
+    color: var(--darkColor);
+}
+
+/* enquiry */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.enquirySection{
+    /* background-color: #7fffd4; */
+}
+
+/* step3: componentContainer */
+.enquiryContainer{
+    background-color: #F3F7FE;
+}
+
+/* step4: row */
+.enquiryBody{
+    /* background-color: #864c7d; */
+}
+
+/* step5: column1 */
+.enquiryimgBlock{
+    /* background-color: #5f3c2d; */
+}
+
+/* step6: subColumn1 */
+.enquiryImgBox{
+    /* background-color: #8c9146; */
+}
+
+/* step7: contentContainer */
+.enquiryImgBox img {
+    /* background-color: #3f5280; */
+}
+
+/* step5: column2 */
+.enquiryBlock{
+    /* background-color: #bd8867; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* step6: subColumn1 */
+.enquiryBox{
+    /* background-color: #9a826d; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/* step7: contentContainer */
+.enquiryBox h2{
+    /* background-color: #9c54a4; */
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.enquiryBox button{
+    /* background-color: #945d5d; */
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 1rem 1.5rem;
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enquiryBox button:hover{
+    background-color: #222f5a;
+    text-decoration: underline;
+}
+
+.enquiryBox i{
+    margin-left: 1rem;
+}
+
+/* skills */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.skillsSection{
+    background-color: #fef5ea;
+}
+
+/* step3: componentContainer */
+.skillsContainer{
+    /* background-color: #fef5ea; */
+}
+
+/* step4: row1 */
+.headingBody{
+    /* background-color: #864c7d; */
+}
+
+/* step5: column1 */
+.headingBlock{
+    /* background-color: #5f3c2d; */
+}
+
+/* step6: subColumn1 */
+.headingBox{
+    /* background-color: #8c9146; */
+}
+
+/* step7: contentContainer */
+.headingBox h2{
+    /* background-color: #3f5280; */
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.headingBox span{
+    /* background-color: #55803f; */
+    color: var(--tertiaryColor);
+}
+
+/* step4: row2 */
+.skillsBody{
+    /* background-color: #a9a756; */
+    /* display: grid; */
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* step5: column1 */
+.skillsBlock{
+    background-color: blue;
+    background-color: var(--primaryColor);
+    border: 1px solid var(--secondaryColor);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* step6: subColumn1 */
+.skillsBox{
+    /* background-color: #00ffff; */
+    padding: 0.5rem 0rem;
+}
+
+/* step7: contentContainer */
+.skillsBox img{
+    /* background-color: #b22222; */
+    height: 6rem;
+}
+
+/* contact */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.contactSection{
+    /* background-color: #ffff00; */
+}
+
+/* step3: componentContainer */
+.contactContainer{
+    /* background: linear-gradient(to left,#5F9D9F,#060120); */
+    width: 100%;
+    margin: auto;
+}
+
+/* step4: row 1*/
+.contactBody{
+    background: linear-gradient(to left,#314D5E,#060120);
+    padding: 3cqi 0rem;
+}
+
+/* step5: column 1*/
+.contactFormBlock{
+    /* background-color: #a52a2a; */
+}
+
+/* step6: subColumn 1 */
+.contactFormBox{
+    background-color: var(--primaryColor);
+    /* background-color: aqua; */
+   
+    border-radius: 10px;
+    width: 60%;
+    padding: 2rem 1rem;
+}
+
+/* step6: subColumn 2*/
+.formTitle{
+    /* background-color: #deb887; */
+}
+
+/* step7: contentContainer */
+.formTitle h3{
+    /* background-color: #d2de87; */
+    font-size: 2.4rem;
+    color: var(--darkColor);
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+/* step6: subColumn 2*/
+.contactBox{
+    /* background-color: #7373da; */
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* padding: 1rem 3rem; */
+}
+
+/* step7: contentContainer */
+.contactBox input{
+    /* background-color: #432a2a; */
+    padding: 2rem 3rem;
+    border: 2px solid #839cb5;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    width: 100%;
+    color: var(--lightColort);
+    font-size: 1.6rem;
+}
+
+.contactBox input:hover{
+    border: 2px solid var(--secondaryColor);
+}
+
+.contactBox button{
+    /* background-color: #ffff73; */
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    font-family: inherit;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.contactBox button:hover{
+    background-color: var(--darkColor);
+}
+
+/* step5: column 2*/
+.contactUsBlock{
+    /* background-color: #6f8ba2; */
+}
+
+/* step6: subColumn 1 */
+.contactUsBox{
+    /* background-color: #6fa2cb; */
+}
+
+/* step7: contentContainer */
+.contactUsBox h3{
+    /* background-color: #d8bfd8; */
+    color: var(--primaryColor);
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.contactUsBox p{
+    /* background-color: #668f7a; */
+    color: var(--primaryColor);
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.contactUsBox button{
+    /* background-color: #6495ed; */
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    font-family: inherit;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* channelPartner */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.channlePartnerSection{
+    background-color: #fef5ea;
+}
+
+/* step3: componentContainer */
+.channlePartnerContainer{
+    background-color: #ab9274;
+    /* width: 80%;
+    margin: auto; */
+}
+
+/* step4: row1 */
+.headingBody{
+    /* background-color: #864c7d; */
+}
+
+/* step5: column1 */
+.headingBlock{
+    /* background-color: #5f3c2d; */
+}
+
+/* step6: subColumn1 */
+.headingBox{
+    /* background-color: #8c9146; */
+}
+
+/* step7: contentContainer */
+.headingBox h2{
+    /* background-color: #3f5280; */
+    font-size: 3.6rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.headingBox span{
+    /* background-color: #55803f; */
+    color: var(--tertiaryColor);
+}
+
+/* step4: row2 */
+.channlePartnerBody{
+    background-color: #d1ce12;
+    /* padding: 5rem; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 3rem;
+}
+
+/* step5: column1 */
+.channlePartnerBlock{
+    background-color: blue;
+    /* padding: 5rem 20rem; */
+}
+
+/* step6: subColumn1 */
+.channlePartnerBox{
+    /* background-color: #00ffff; */
+}
+
+/* step7: contentContainer */
+.channlePartnerBox img{
+    /* background-color: #b22222; */
+    height: 1rem;
+}
+
+/* footer */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.footerSection{
+    background-color: #f8fbff;
+}
+
+/* step3: componentContainer */
+.footerContainer{
+    /* background-color: #f8fbff; */
+    width: 1005;
+    margin: auto;
+}
+
+/* step4: row 1*/
+.footerBody{
+    /* background-color: #5276a4; */
+    padding: 4rem 10rem;
+    column-gap: 2rem;
+}
+
+/* step5: column 1*/
+.footerBlock{
+    /* background-color: #bb7373; */
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+
+/* step6: subColumn 1 */
+.footerBox{
+    /* background-color: #71583d; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/* step6: subColumn 2*/
+.footerLogo{
+    /* background-color: #deb887; */
+}
+
+/* step7: contentContainer */
+.footerLogo img{
+    /* background-color: #d2de87; */
+    height: 5rem;
+    margin-bottom: 3rem;
+}
+
+.footerBox p{
+    /* background-color: #4949c0; */
+    text-align: start;
+    text-align: justify;
+    line-height: 2;
+}
+
+/* step6: subColumn 2*/
+.footerHead{
+    /* background-color: #7373da; */
+    margin-bottom: 3rem;
+}
+
+/* step7: contentContainer */
+.footerHead h3{
+    /* background-color: #432a2a; */
+    font-size: 2rem;
+    color: var(--darkColor);
+}
+
+/* step6: subColumn 3*/
+.footerList{
+    /* background-color: #6f8ba2; */
+}
+
+/* step7: contentContainer */
+.footerList li{
+    /* background-color: #6fa2cb; */
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.footerList i{
+    /* background-color: #d8bfd8; */
+    padding-right: 2rem;
+}
+
+.footerList a{
+    /* background-color: #40abab; */
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--darkColor);
+}
+
+.footerList span{
+    color: var(--lightColor);
+}
+
+/* step4: row 2*/
+.copyRightsBody{
+    background-color: #19213B;
+    padding: 2rem ;
+    width: 100%;
+}
+
+/* step5: column 1*/
+.copyRightsIconBlock{
+    /* background-color: #c6773e; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* step6: subColumn 1*/
+.copyRightsIconBox{
+    /* background-color: #87ceeb; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* step7: contentContainer */
+.copyRightsIconBox i{
+    /* background-color: #dc143c; */
+    padding-left: 4rem;
+}
+
+/* step5: column 2*/
+.copyRightsBlock{
+    /* background-color: #a0522d; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* step6: subColumn 1*/
+.copyRightsBox{
+    /* background-color: #800080; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+/* step7: contentContainer */
+.copyRightsBox p{
+    /* background-color: #217526; */
+    color: var(--primaryColor);
+}
